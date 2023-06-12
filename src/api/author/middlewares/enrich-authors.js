@@ -1,6 +1,11 @@
 const populateList = ["books"];
 
 const enrichCtx = (ctx) => {
+  console.log(`
+    ==========
+    ${ctx}
+    ==========
+  `);
   if (!ctx.query) {
     ctx.query = {};
   }

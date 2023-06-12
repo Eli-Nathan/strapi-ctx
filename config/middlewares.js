@@ -9,6 +9,6 @@ module.exports = [
   "strapi::session",
   "strapi::favicon",
   "strapi::public",
-  "api::book.enrich-books",
-  "api::author.enrich-authors",
+  // "api::book.enrich-books",
+  // "api::author.enrich-authors",
 ];
