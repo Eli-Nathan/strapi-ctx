@@ -10,7 +10,7 @@ module.exports = {
       method: "GET",
       path: "/authors",
       handler: "author.find",
-      middlewares: ["api::author.enrich-author"],
+      middlewares: ["enrich-author"],
     },
   ],
 };
